@@ -1,0 +1,70 @@
+/* Theme: Soft (Default) */
+[data-theme="soft"] {
+  --bg-primary: #FDFBF7;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F4EFEA;
+  --text-primary: #2C2A29;
+  --text-secondary: #756F6B;
+  --text-tertiary: #A39E99;
+  --brand-primary: #E0897A;
+  --brand-light: #F9ECE9;
+  --brand-dark: #B85B4C;
+  --accent-follicular: #8BA888;
+  --accent-ovulation: #E5C365;
+  --accent-luteal: #A288A8;
+  --accent-menstrual: #E0897A;
+  --shadow-sm: 0 2px 8px rgba(44, 42, 41, 0.04);
+  --shadow-md: 0 8px 24px rgba(44, 42, 41, 0.08);
+  --success: #6B9B6E;
+  --error: #C1594A;
+}
+
+/* Theme: Dark */
+[data-theme="dark"] {
+  --bg-primary: #121212;
+  --bg-surface: #1E1E1E;
+  --bg-subtle: #2A2A2A;
+  --text-primary: #F5F5F5;
+  --text-secondary: #A0A0A0;
+  --text-tertiary: #6E6E6E;
+  --brand-primary: #EC9A8C;
+  --brand-light: #3D2B28;
+  --brand-dark: #F0A89C;
+  --accent-follicular: #98B895;
+  --accent-ovulation: #ECD078;
+  --accent-luteal: #B399B9;
+  --accent-menstrual: #EC9A8C;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --success: #7DBF80;
+  --error: #E0796A;
+}
+
+/* Theme: Y2K */
+[data-theme="y2k"] {
+  --bg-primary: #E0F7FA;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #B2EBF2;
+  --text-primary: #004D40;
+  --text-secondary: #00796B;
+  --text-tertiary: #4DB6AC;
+  --brand-primary: #FF4081;
+  --brand-light: #F8BBD0;
+  --brand-dark: #C2185B;
+  --accent-follicular: #00E676;
+  --accent-ovulation: #FFEA00;
+  --accent-luteal: #D500F9;
+  --accent-menstrual: #FF4081;
+  --shadow-sm: 2px 2px 0px #004D40;
+  --shadow-md: 4px 4px 0px #004D40;
+  --success: #00C853;
+  --error: #FF1744;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

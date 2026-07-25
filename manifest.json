@@ -1,0 +1,22 @@
+{
+  "short_name": "Bloom",
+  "name": "Bloom Period Companion",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "scope": "./",
+  "background_color": "#FDFBF7",
+  "theme_color": "#E0897A",
+  "display": "standalone",
+  "orientation": "portrait"
+}
